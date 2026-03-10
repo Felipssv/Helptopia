@@ -286,6 +286,160 @@ main {
   color: var(--accent-green);
 }
 
+/* ── PROFIT HERO ── */
+.profit-hero-card {
+  text-align: center;
+}
+
+.profit-hero-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.profit-hero-content h2 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.profit-hero-content p {
+  font-size: 15.2px;
+  line-height: 1.7;
+  color: var(--text-body);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* ── PROFIT TABLE ── */
+.table-card {
+  padding: 30px 36px;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.profit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profit-table thead th {
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-dark);
+  padding: 14px 16px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+}
+
+.profit-table tbody td {
+  padding: 16px;
+  font-size: 14.4px;
+  color: var(--text-body);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* ── TABLE EMPHASIS ── */
+.item-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.price {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #5b87a3;
+}
+
+/* ── PROFIT BADGES ── */
+.badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-body);
+}
+
+.badge-very-high {
+  background: #b9e4bf;
+  color: #2e8b47;
+}
+
+.badge-high {
+  background: #cfe6fb;
+  color: #2d79d1;
+}
+
+.badge-medium {
+  background: #f6e2a9;
+  color: #d8861c;
+}
+
+/* ── PROFIT TIPS ── */
+.tips-card .section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 19.2px;
+  font-weight: 700;
+  color: var(--accent-teal);
+  margin-bottom: 14px;
+}
+
+.tips-list {
+  padding-left: 18px;
+}
+
+.tips-list li {
+  font-size: 14.8px;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+/* ── TABLE COLORS ── */
+.star-price {
+  margin-left: 4px;
+  font-size: 13px;
+}
+
+.profit-badge,
+.level-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-body);
+}
+
+.profit-top {
+  background: #b9e4bf;
+  color: #2e8b47;
+}
+
+.profit-high {
+  background: #cfe6fb;
+  color: #2d79d1;
+}
+
+.profit-mid {
+  background: #f6e2a9;
+  color: #d8861c;
+}
+
+.level-badge {
+  background: rgba(168, 207, 232, 0.35);
+  color: var(--text-dark);
+}
+
 /* ── FOOTER ── */
 footer {
   text-align: center;
